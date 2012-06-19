@@ -1,0 +1,6 @@
+<mtapp:setting id="doGistSource" label="<__trans phrase="Enable to Embed Gist Source">">
+		<input type="checkbox" id="doGistSource" name="doGistSource" value="1"<mt:if name="doGistSource"> checked="checked"</mt:if> />
+</mtapp:setting>
+<mtapp:setting id="addTypeAttribute" label="<__trans phrase="Add to type attribute (type/javascript)">">
+		<input type="checkbox" id="addTypeAttribute" name="addTypeAttribute" value="1"<mt:if name="addTypeAttribute"> checked="checked"</mt:if><mt:Unless name="doGistSource"> disabled="disabled"</mt:Unless> />
+</mtapp:setting>
