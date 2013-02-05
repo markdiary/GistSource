@@ -1,7 +1,7 @@
 id: GistSource
 key: GistSource
 name: GistSource Plugin
-version: 1.0
+version: 1.1
 description: <__trans phrase="Eneble to Embed Gist Source notation">
 author_name: maRk
 author_link: http://labs.markdiary.com/
